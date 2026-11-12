@@ -19,7 +19,7 @@
 | ☑ Email event suggestion implementation | ☑ Manual scan of last 7 days/up to 50 messages; on-device date parsing; review/approve/dismiss; ☐ Provider API setup/live tests |
 | ☑ Personal availability | ☑ Copy free time slots for sharing manually |
 | ☑ Website/PWA | ☑ iPhone Home Screen support; ☐ Full mobile/browser QA |
-| ☑ GitHub checkpoint | ☑ Public repository; meaningful commit names; ☐ Complete README and TXT guide |
-| ☐ Verification suite | ☐ Recurrence/DST; sync conflicts; offline persistence; import parsing; reminder logic |
+| ☑ GitHub and documentation | ☑ Public repository; meaningful commit names; ☑ Detailed README and TXT guide |
+| ☑ Initial verification suite | ☑ 11 passing tests: recurrence/DST, sync races/conflicts, persistence, scheduler, reminders; ☐ Import/browser/live cloud testing |
 
 Intentionally excluded: travel alerts, shared/multi-user calendars, a native app, and native iPhone widgets. A future native app can reuse the data model and Supabase backend.

@@ -6,7 +6,9 @@
 - Local project: this folder (`outputs/weekwise` in the originating chat workspace).
 - Initial production build passed; core application pushed in commit `1d25efe`.
 - React/TypeScript/Bootstrap UI, FullCalendar, Dexie persistence, tasks, recurrence, daily review, customization, import integrations, email review queue, and conflict-aware Supabase client implemented.
-- Supabase schema and Cloudflare reminder worker added in the next checkpoint.
+- Supabase schema and Cloudflare reminder worker pushed in commit `1772e6a`; build passes including worker types.
+- Eleven automated behavioral tests pass. README now includes the feature checklist and detailed how-to.
+- User prefers future commit messages to name the feature directly, without `feat:` or `checkpoint`.
 - User requested a laptop-close checkpoint. Continue autonomously when the chat resumes.
 
 ## User decisions
@@ -20,18 +22,15 @@ feature checklist required. User has not created Supabase/Cloudflare accounts ye
 
 ## Next actions (do not claim these are complete)
 
-1. Run TypeScript/build again including new cloud worker; fix failures.
-2. Add meaningful tests for recurrence/DST/exceptions, scheduler buffers/quiet time,
-   offline database updates, sync response races/conflicts, imports, email dates,
-   and reminder deduplication/quiet-time calculation.
+1. Production build and 11 tests pass; continue from this point.
+2. Add import/email parser tests and browser tests; live cloud integrations remain unverified.
 3. Review recurrence completion and double-completion races; local settings
    initialization race; account switching; backup schema validation.
 4. Remove residual unused travel fields; fix stale snooze suppression; ensure
    manual editor also respects protected focus time. Add N shortcut or remove hint.
 5. Browser QA at desktop and 440px mobile, CRUD, recurrence, offline reload, and
    drag/drop. Test production preview so service worker is included.
-6. Complete detailed README / START-HERE.md for Supabase SQL, Cloudflare Pages,
-   reminder cron/VAPID secrets, Google/Microsoft OAuth and email permissions.
+6. Refine the completed README / START-HERE.md after QA and any behavior changes.
 7. Improve packaging/readability, inspect dependency audit, commit/push tested
    milestones. Update FEATURES.md and this checkpoint with actual verification.
 
