@@ -1,0 +1,32 @@
+PERSONAL PLANNER / WEEKWISE
+
+QUICK START
+1. Open a terminal in this folder.
+2. Run: npm install
+3. Run: npm run dev
+4. Open the local address printed in the terminal.
+Only Node.js and a browser are needed for development. No cloud account is
+required to use the offline planner.
+
+DAILY USE
+Today: see the next event, today's agenda, and your highest-priority tasks.
+My week: click an empty time to add a block. Drag a block to move it. Drag its
+lower edge to resize it. Work, classes, and personal events use the same layout.
+Task inbox: capture tasks without dates; add subtasks, priority, and progress.
+Tap a task's clock to find a free slot. Scheduling a task does not complete it.
+Daily review: move unfinished work to tomorrow, remove a due date, or let it go.
+Customize: change categories, colors, theme, size, spacing, hours, and timezone.
+Connections: sign in for sync, import calendars, enable push, export backups.
+Event suggestions: optionally scan recent email and review possible events.
+
+IPHONE
+After deployment, open the HTTPS website in Safari. Use Share -> Add to Home
+Screen. Launch from its icon. Closed-app notifications require the cloud worker,
+a signed-in cloud account, and notification permission on this installed PWA.
+Native iPhone widgets are not included in this web-only project.
+
+IMPORTANT AT THIS CHECKPOINT
+The local app builds successfully. Cloud/API connections still need your
+accounts. Browser and automated QA are in progress. See CHECKPOINT.md and
+FEATURES.md for the honest current state. No personal data or secrets belong
+in this public repository.
