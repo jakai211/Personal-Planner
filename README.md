@@ -14,7 +14,7 @@ Install the website as a PWA; no native app is needed.
 ## Feature checklist
 
 ☑ Implemented in source · ☐ Pending setup or validation. Checked does not mean a
-live cloud connection has been verified. [Full checklist](FEATURES.md).
+live cloud connection has been verified.
 
 | Major features | Minor features |
 | --- | --- |
@@ -33,7 +33,7 @@ live cloud connection has been verified. [Full checklist](FEATURES.md).
 | ☑ Email event suggestions | ☑ Manual Gmail/Outlook scan; local date parsing; review/approve/dismiss; ☐ API setup/live tests |
 | ☑ Personal availability | ☑ Copy free slots to share manually |
 | ☑ Website/PWA | ☑ Home Screen installation support; ☐ Desktop/mobile browser QA |
-| ☑ GitHub and documentation | ☑ Public repo; meaningful commits; setup guide; TXT how-to; feature checklist |
+| ☑ GitHub and documentation | ☑ Public repo; meaningful commits; setup guide; README usage instructions and feature checklist |
 | ☑ Initial verification | ☑ 11 passing behavioral tests; ☑ Production build; ☐ Browser/live integration tests |
 
 Intentionally excluded: travel alerts, shared/multi-user calendars, a native app,
@@ -206,8 +206,8 @@ cloud sync, and iPhone push delivery remain pending.
 
 ## Guides and ongoing work
 
-[Plain-text usage guide](HOW-TO-USE.txt) · [Detailed setup](START-HERE.md) ·
-[Feature checklist](FEATURES.md) · [Resume notes](CHECKPOINT.md)
+[Usage instructions](#how-to-use) · [Feature checklist](#feature-checklist) ·
+[Detailed setup](START-HERE.md) · [Resume notes](CHECKPOINT.md)
 
 Work is saved in descriptive commits and pushed as changes are made. There is no
 unattended background updater. Future requested updates should include verification,

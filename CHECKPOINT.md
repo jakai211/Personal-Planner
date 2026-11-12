@@ -17,8 +17,9 @@ One shared modern block calendar for work/classes/personal, iPhone 16 Pro Max,
 import-only Google/Outlook, closed-app reminders, no travel alerts, no native app,
 no shared calendars. Optional mailbox reading approved: Gmail/Outlook recent-email
 scan into an event review queue. Leave account/API setup until the end. Public
-GitHub repo with meaningful commits, detailed README, TXT how-to, and a major/minor
-feature checklist required. User has not created Supabase/Cloudflare accounts yet.
+GitHub repo with meaningful commits and a detailed README containing usage instructions
+and a major/minor feature checklist required. The user requested removal of the
+duplicate standalone usage and feature files. User has not created Supabase/Cloudflare accounts yet.
 
 ## Next actions (do not claim these are complete)
 
@@ -32,7 +33,7 @@ feature checklist required. User has not created Supabase/Cloudflare accounts ye
    drag/drop. Test production preview so service worker is included.
 6. Refine the completed README / START-HERE.md after QA and any behavior changes.
 7. Improve packaging/readability, inspect dependency audit, commit/push tested
-   milestones. Update FEATURES.md and this checkpoint with actual verification.
+   milestones. Update the README feature checklist and this checkpoint with actual verification.
 
 ## Known verification limits
 
